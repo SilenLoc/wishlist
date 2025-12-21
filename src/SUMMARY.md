@@ -3,6 +3,7 @@
 - [Introduction](./introduction.md)
 
 ## Tech & Gadgets
+- [CW&T Pencil Type-C](./tech-gadgets/cwt-pencil-type-c.md)
 - [Keychron K2 Keyboard](./tech-gadgets/keychron-k2-keyboard.md)
 - [USB-C AA Batteries](./tech-gadgets/usb-c-aa-batteries.md)
 - [WUBEN X4 Flashlight](./tech-gadgets/wuben-x4-flashlight.md)
