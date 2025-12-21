@@ -8,6 +8,7 @@
 
 ## Lifestyle
 - [Standing Desk](./lifestyle/standing-desk.md)
+- [Levitating Plant Pot](./lifestyle/levitating-plant-pot.md)
 
 ## Categories Guide
 - [How to Use This Wishlist](./guide.md)
