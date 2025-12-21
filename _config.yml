@@ -1,0 +1,29 @@
+# Site settings
+title: "My Wishlist"
+description: "A curated list of things I'd love to have"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# GitHub Pages settings
+github_username: silen # Replace with your GitHub username
+show_excerpts: true
+
+# Collections for wishlist items
+collections:
+  wishlist:
+    output: true
+    permalink: /:collection/:name/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "wishlist"
+    values:
+      layout: "post"
