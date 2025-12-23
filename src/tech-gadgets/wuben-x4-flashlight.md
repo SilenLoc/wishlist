@@ -1,7 +1,6 @@
 # WUBEN X4 EDC Rechargeable Flashlight
 
 **Category**: Tech & Gadgets  
-**Priority**: 🟡 Medium  
 **Price**: $59.99  
 **Where to buy**: [Amazon](https://amazon.com/search?k=WUBEN+X4+EDC+Flashlight)
 

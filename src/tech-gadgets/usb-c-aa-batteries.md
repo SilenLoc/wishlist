@@ -1,7 +1,6 @@
 # LDSMNLI USB-C Rechargeable AA Batteries
 
 **Category**: Tech & Gadgets  
-**Priority**: 🟡 Medium  
 **Price**: $29.99  
 **Where to buy**: [Amazon](https://geni.us/EqdeJ)
 
