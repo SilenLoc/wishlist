@@ -4,6 +4,7 @@
 
 ## Tech & Gadgets
 - [CW&T Pencil Type-C](./tech-gadgets/cwt-pencil-type-c.md)
+- [DockCase Smart MagSafe SSD](./tech-gadgets/dockcase-smart-magsafe-ssd.md)
 - [Fanttik F2 Master Mini](./tech-gadgets/fanttik-f2-master-mini.md)
 - [M5Stack Cardputer](./tech-gadgets/m5stack-cardputer.md)
 - [Miyoo Mini Plus](./tech-gadgets/miyoo-mini-plus.md)
@@ -11,7 +12,9 @@
 - [Playdate](./tech-gadgets/playdate.md)
 - [Powkiddy RGB20s](./tech-gadgets/powkiddy-rgb20s.md)
 - [Qwerkywriter Qt Num](./tech-gadgets/qwerkywriter-qt-num.md)
+- [UGREEN NASYNC DH4300 Plus](./tech-gadgets/ugreen-nasync-dh4300-plus.md)
 - [USB-C AA Batteries](./tech-gadgets/usb-c-aa-batteries.md)
+- [WUBEN G5 EDC Light](./tech-gadgets/wuben-g5-edc-light.md)
 - [WUBEN X4 Flashlight](./tech-gadgets/wuben-x4-flashlight.md)
 - [YubiKey 5C NFC](./tech-gadgets/yubikey-5c-nfc.md)
 - [Zima 2-Bay HDD Rack](./tech-gadgets/zima-2-bay-hdd-rack.md)
