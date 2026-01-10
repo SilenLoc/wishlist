@@ -34,10 +34,17 @@
 - [The 48 Laws of Power](./books/48-laws-of-power.md)
 - [Mastery - Robert Greene](./books/mastery-robert-greene.md)
 - [Man's Search for Meaning - Viktor Frankl](./books/mans-search-for-meaning.md)
+- [Four Thousand Weeks - Oliver Burkeman](./books/four-thousand-weeks.md)
+- [The Immutable Laws of Marketing - Al Ries & Jack Trout](./books/immutable-laws-of-marketing.md)
+- [Of Boys and Men - Richard Reeves](./books/of-boys-and-men.md)
+- [The Road to Character - David Brooks](./books/the-road-to-character.md)
+- [The Daily Dad - Ryan Holiday](./books/the-daily-dad.md)
 
 ## Literary Classics
 - [The Odyssey - Homer](./books/the-odyssey-homer.md)
 - [84, Charing Cross Road - Helene Hanff](./books/84-charing-cross-road.md)
+- [Letters to a Young Poet - Rainer Maria Rilke](./books/letters-to-a-young-poet.md)
+- [Nature - Ralph Waldo Emerson](./books/nature-ralph-waldo-emerson.md)
 
 ## Memoir & True Stories
 - [A Marriage at Sea - Sophie Elmhirst](./books/a-marriage-at-sea.md)
@@ -45,6 +52,10 @@
 - [The Art Thief - Michael Finkel](./books/the-art-thief.md)
 - [Blue Nights - Joan Didion](./books/blue-nights-joan-didion.md)
 - [Why Fish Don't Exist - Lulu Miller](./books/why-fish-dont-exist.md)
+
+## Practical Guides
+- [How to Make the Best Coffee at Home - James Hoffmann](./books/how-to-make-the-best-coffee-at-home.md)
+- [The Intelligent Investor - Benjamin Graham](./books/the-intelligent-investor.md)
 
 # Guide
 - [How to Use This Wishlist](./guide.md)
