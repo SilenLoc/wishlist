@@ -1,7 +1,6 @@
 [book]
 authors = ["Silen Locatelli"]
 language = "en"
-multilingual = false
 src = "src"
 title = "My Wishlist"
 description = "A curated list of things I'd love to have"
@@ -14,10 +13,8 @@ default-theme = "light"
 preferred-dark-theme = "navy"
 smart-punctuation = true
 mathjax-support = false
-copy-fonts = true
 additional-css = ["assets/css/custom.css"]
 git-repository-url = "https://github.com/silen/wishlist"
-git-repository-icon = "fa-github"
 
 [output.html.search]
 enable = true
