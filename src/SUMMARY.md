@@ -56,6 +56,7 @@
 ## Practical Guides
 - [How to Make the Best Coffee at Home - James Hoffmann](./books/how-to-make-the-best-coffee-at-home.md)
 - [The Intelligent Investor - Benjamin Graham](./books/the-intelligent-investor.md)
+- [The Creative Habit - Twyla Tharp](./books/the-creative-habit-twyla-tharp.md)
 
 # Guide
 - [How to Use This Wishlist](./guide.md)
