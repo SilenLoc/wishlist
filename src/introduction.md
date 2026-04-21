@@ -7,7 +7,6 @@ This is my gift wish list. Below you'll find an index of all items organised by 
 ### Tech & Gadgets
 - [CW&T Pencil Type-C](./tech-gadgets/cwt-pencil-type-c.md)
 - [DockCase Smart MagSafe SSD](./tech-gadgets/dockcase-smart-magsafe-ssd.md)
-- [Fanttik F2 Master Mini](./tech-gadgets/fanttik-f2-master-mini.md)
 - [M5Stack Cardputer](./tech-gadgets/m5stack-cardputer.md)
 - [Miyoo Mini Plus](./tech-gadgets/miyoo-mini-plus.md)
 - [Onyx Boox Palma 2](./tech-gadgets/onyx-boox-palma-2.md)
