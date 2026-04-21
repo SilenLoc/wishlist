@@ -7,17 +7,10 @@ This is my gift wish list. Below you'll find an index of all items organised by 
 ### Tech & Gadgets
 - [CW&T Pencil Type-C](./tech-gadgets/cwt-pencil-type-c.md)
 - [DockCase Smart MagSafe SSD](./tech-gadgets/dockcase-smart-magsafe-ssd.md)
-- [M5Stack Cardputer](./tech-gadgets/m5stack-cardputer.md)
-- [Miyoo Mini Plus](./tech-gadgets/miyoo-mini-plus.md)
 - [Onyx Boox Palma 2](./tech-gadgets/onyx-boox-palma-2.md)
-- [Playdate](./tech-gadgets/playdate.md)
 - [Powkiddy RGB20s](./tech-gadgets/powkiddy-rgb20s.md)
-- [Qwerkywriter Qt Num](./tech-gadgets/qwerkywriter-qt-num.md)
 - [UGREEN NASYNC DH4300 Plus](./tech-gadgets/ugreen-nasync-dh4300-plus.md)
-- [USB-C AA Batteries](./tech-gadgets/usb-c-aa-batteries.md)
 - [WUBEN G5 EDC Light](./tech-gadgets/wuben-g5-edc-light.md)
-- [YubiKey 5C NFC](./tech-gadgets/yubikey-5c-nfc.md)
-- [Zima 2-Bay HDD Rack](./tech-gadgets/zima-2-bay-hdd-rack.md)
 
 ### Lifestyle
 - [Levitating Plant Pot](./lifestyle/levitating-plant-pot.md)
@@ -32,12 +25,10 @@ This is my gift wish list. Below you'll find an index of all items organised by 
 - [The Colossus of Maroussi - Henry Miller](./books/the-colossus-of-maroussi.md)
 
 #### Philosophy & Self-Development
-- [The 48 Laws of Power](./books/48-laws-of-power.md)
 - [Mastery - Robert Greene](./books/mastery-robert-greene.md)
 - [Man's Search for Meaning - Viktor Frankl](./books/mans-search-for-meaning.md)
 
 #### Literary Classics
-- [The Odyssey - Homer](./books/the-odyssey-homer.md)
 - [84, Charing Cross Road - Helene Hanff](./books/84-charing-cross-road.md)
 
 #### Memoir & True Stories
