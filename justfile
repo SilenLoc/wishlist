@@ -1,12 +1,11 @@
-
-
-
 run:
-    mdbook serve
+    npm run dev
 
 build:
-    mdbook build
+    npm run build
 
+preview:
+    npm run preview
 
 pub:
     git add .

@@ -1,28 +1,31 @@
 # Agent Guidelines for Wishlist Repository
 
 ## Build Commands
-- **Build**: `mdbook build` - Generate static site in `book/` directory
-- **Serve**: `mdbook serve` - Local development server with live reload
-- **Test**: `mdbook test` - Test code blocks in documentation
-- **Clean**: `rm -rf book/` - Remove build artifacts
+- **Install**: `npm install` - install dependencies
+- **Dev**: `npm run dev` - local dev server with live reload
+- **Build**: `npm run build` - static site in `dist/`
+- **Preview**: `npm run preview` - serve the production build
+- Deployment is automatic: pushing to `main` triggers `.github/workflows/deploy.yml`
 
 ## Content Structure
-- All content in `src/` directory with `SUMMARY.md` as navigation
-- Item format: Category, Price (CHF), Purchase link, blockquote description
-- Categories: `tech-gadgets/`, `lifestyle/` (add new categories as subdirectories)
+- Static site built with [Astro](https://astro.build) (see `astro.config.mjs`)
+- Wishlist items are Markdown files in `src/<category>/*.md`, loaded as Astro content collections (defined in `src/content.config.ts`)
+- Item frontmatter: `title`, optional `author`, `price`, `links` (list of `label`/`url`); the body (a blockquote) is the item description
+- Category metadata (slug, label, order) lives in `src/categories.ts`
+- Categories: `tech-gadgets/`, `tools/`, `lifestyle/`, `books/` (add new categories as a new subdirectory plus an entry in `categories.ts` and a collection in `content.config.ts`)
 
 ## Style Guidelines
-- **Metadata format**: `**Category**: Tech & Gadgets`, `**Price**: CHF XX.XX`, `**Where to buy**: [Link](url)`
-- **Descriptions**: Use blockquotes (>) for item descriptions
-- **Links**: Prefer official stores, then Galaxus.ch for Swiss market
-- **Formatting**: Clean markdown, consistent spacing, British English
+- **Metadata format**: frontmatter fields as shown above, double-quoted strings
+- **Descriptions**: blockquotes (>) for item descriptions
+- **Links**: prefer official stores, then Galaxus.ch for the Swiss market
+- **Formatting**: clean Markdown, consistent spacing, British English
+- No `SUMMARY.md`: pages are generated from the content collections
 
 ## File Naming
 - Lowercase with hyphens: `product-name.md`
 - Match category subdirectories in `src/`
-- Update `SUMMARY.md` when adding new items
 
-## CSS Customization
-- Custom styles in `assets/css/custom.css`
-- Uses blue theme (#2196F3) for links and accents
-- Responsive table styling, item metadata blocks
+## Styling
+- Global styles in `src/styles/global.css`
+- Blue theme (#2196F3) for links and accents, light and dark modes via `prefers-color-scheme`
+- Responsive card grid on the homepage, sidebar navigation on all pages

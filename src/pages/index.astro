@@ -1,0 +1,47 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import { categories } from "../categories";
+
+const base = import.meta.env.BASE_URL;
+
+const groups = [];
+for (const category of categories) {
+  const items = (await getCollection(category.slug)).sort((a, b) =>
+    a.data.title.localeCompare(b.data.title)
+  );
+  groups.push({ ...category, items });
+}
+const totalItems = groups.reduce((n, g) => n + g.items.length, 0);
+---
+
+<Base title="My Wishlist">
+  <h1>My Wishlist</h1>
+  <p class="intro">
+    This is my gift wish list: a curated list of things I'd love to have,
+    organised by category. There are {totalItems} items at the moment. If you
+    are looking for a gift idea, just pick something and follow the link.
+  </p>
+  {groups.map((g) => (
+    <section class="category" id={g.slug}>
+      <h2>
+        {g.label} <span class="count">({g.items.length})</span>
+      </h2>
+      <ul class="item-grid">
+        {g.items.map((item) => (
+          <li class="item-card">
+            <a class="item-title" href={base + g.slug + "/" + item.id}>
+              {item.data.title}
+            </a>
+            {item.data.author && <span class="item-author">{item.data.author}</span>}
+            <span class="item-price">{item.data.price}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  <footer class="site-footer">
+    Built with <a href="https://astro.build">Astro</a> ·
+    <a href="https://github.com/SilenLoc/wishlist">View on GitHub</a>
+  </footer>
+</Base>

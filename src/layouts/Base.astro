@@ -1,0 +1,91 @@
+---
+import "../styles/global.css";
+import { getCollection } from "astro:content";
+import { categories } from "../categories";
+
+interface Props {
+  title?: string;
+  description?: string;
+  frontmatter?: { title?: string; description?: string };
+}
+
+const { frontmatter } = Astro.props;
+const title = Astro.props.title ?? frontmatter?.title ?? "My Wishlist";
+const description =
+  Astro.props.description ??
+  frontmatter?.description ??
+  "A curated list of things I'd love to have";
+
+const base = import.meta.env.BASE_URL;
+const path = Astro.url.pathname;
+
+const nav = [];
+for (const category of categories) {
+  const items = (await getCollection(category.slug)).sort((a, b) =>
+    a.data.title.localeCompare(b.data.title)
+  );
+  nav.push({ ...category, items });
+}
+const totalItems = nav.reduce((n, c) => n + c.items.length, 0);
+
+const itemHref = (slug: string, id: string) => base + slug + "/" + id;
+const isActive = (href: string) => path === href || path === href + "/";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href={base + "favicon.svg"} />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <a class="site-title" href={base}>My Wishlist</a>
+        <p class="site-subtitle">{totalItems} items</p>
+        <nav>
+          {nav.map((c) => (
+            <section class="nav-group">
+              <h3>{c.label}</h3>
+              <ul>
+                {c.items.map((item) => (
+                  <li>
+                    <a
+                      class:list={["nav-link", isActive(itemHref(c.slug, item.id)) ? "active" : ""]}
+                      href={itemHref(c.slug, item.id)}
+                    >
+                      {item.data.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+          <section class="nav-group">
+            <h3>Guide</h3>
+            <ul>
+              <li>
+                <a
+                  class:list={["nav-link", isActive(base + "guide/") ? "active" : ""]}
+                  href={base + "guide/"}
+                >
+                  How to Use This Wishlist
+                </a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+        <footer class="sidebar-footer">
+          <a href="https://github.com/SilenLoc/wishlist">View on GitHub</a>
+        </footer>
+      </aside>
+      <main class="content">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>
