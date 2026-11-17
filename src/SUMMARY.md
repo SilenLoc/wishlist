@@ -38,6 +38,7 @@
 - [The Immutable Laws of Marketing - Al Ries & Jack Trout](./books/immutable-laws-of-marketing.md)
 - [The Intelligent Investor - Benjamin Graham](./books/the-intelligent-investor.md)
 - [The Creative Habit - Twyla Tharp](./books/the-creative-habit-twyla-tharp.md)
+- [The Notebook: A History of Thinking on Paper - Roland Allen](./books/the-notebook-a-history-of-thinking-on-paper.md)
 - [The Road to Character - David Brooks](./books/the-road-to-character.md)
 - [The Stranger in the Woods - Michael Finkel](./books/the-stranger-in-the-woods.md)
 - [Why Fish Don't Exist - Lulu Miller](./books/why-fish-dont-exist.md)
