@@ -1,7 +1,8 @@
-# Levitating Plant Pot - Hexagon Floating Air Bonsai
-
-**Category**: Lifestyle  
-**Price**: $89.99  
-**Where to buy**: [Amazon](https://amazon.com/search?k=Levitating+Plant+Pot+Hexagon)
-
-> Hexagon Floating Air Bonsai Pot Suspension Flowerpot Planter for Office Home Decoration
+---
+title: "Levitating Plant Pot - Hexagon Floating Air Bonsai"
+price: "$89.99"
+links:
+  - label: "Amazon"
+    url: "https://amazon.com/search?k=Levitating+Plant+Pot+Hexagon"
+---
+> Hexagon Floating Air Bonsai Pot Suspension Flowerpot Planter for Office Home Decoration.
