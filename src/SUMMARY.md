@@ -4,7 +4,6 @@
 
 # Tech & Gadgets
 - [CW&T Pencil Type-C](./tech-gadgets/cwt-pencil-type-c.md)
-- [Miyoo Mini Plus 3.5" Gaming Console](./tech-gadgets/miyoo-mini-plus.md)
 - [UGREEN NASYNC DH4300 Plus](./tech-gadgets/ugreen-nasync-dh4300-plus.md)
 - [WUBEN G5 EDC Light](./tech-gadgets/wuben-g5-edc-light.md)
 - [Xteink X4 Pro](./tech-gadgets/xteink-x4-pro.md)
